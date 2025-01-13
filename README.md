@@ -4,9 +4,13 @@
 # Σύνδεση νέας βάσης δεδομένων postgreSql στο intelij με αυτά τα στοιχεία (από την βάση που έφτιαξα στο render):
 
 Host: dpg-cu2jdpqj1k6c73cmqisg-a.oregon-postgres.render.com
+
 Port: 5432
+
 User: user
+
 Password: WVWSBRSBoQ8T9Orlymo8LZOWxQQ7CTsf
+
 
 Από τα databases επιλέγετε το volunteer_management -> all schemas
 
