@@ -1,16 +1,25 @@
 # DistributedSystems 
-# Αλλαγές που έκανα στο τελευταίο αρχείο
 
-Στο αρχείο pom.xml προσθεσα τα dependencies για mysql και στο application.properties τα configurations για mysql και hibernate.
 
-όπου spring.datasource.password=  ->ο κωδικός που έχετε στο mysql
+# Σύνδεση νέας βάσης δεδομένων postgreSql στο intelij με αυτά τα στοιχεία (από την βάση που έφτιαξα στο render):
+Host: dpg-cu2jdpqj1k6c73cmqisg-a.oregon-postgres.render.com
+Port: 5432
+User: user
+Password: WVWSBRSBoQ8T9Orlymo8LZOWxQQ7CTsf
 
-Στο mysql έφτιαξα μία βάση δεδομένων (CREATE DATABASE volunteer_management;)
-Από το δεξιά μενού του intelij σύνδεσα τη βάση δεδομένων
+Από τα databases επιλέγετε το volunteer_management -> all schemas
 
-Στην κλάση event προσθεσα την παράμετρο organizationId που έλεγε ότι λείπει
-Στο registration repository διόρθωσα το τυπογραφικό που υπήρχε
+Αν θέλετε να κάνετε αλλαγές στη βάση δεδομένων πρέπει να έχετε κατεβασμένο το pgAdmin, εκεί επιλέγετε register server και συνδέεστε στην βάση render με τα παραπάνω στοιχεία 
 
-Έφτιαξα ένα αρχείο data.sql με ενδεικτικά δεδομένα για τους πίνακες που δημιουργούνται (δεν εκτελείται επειδή δεν τρέχει όλο το πρόγραμμα)
-Κατά την εκτέλεση του προγράμματος δημιουργούνται αυτόματα οι πίνακες στην βάση δεδομένων(event, registration, role, user, user_roles) και οι αντίστοιχες στήλες τους.
-Μετά από ένα σημείο ενώ γίνεται εκτέλεση, δεν εμφανίζει κάτι άλλο στο output και η εκτέλεση δεν τελειώνει..
+Με την εκτέλεση της εφαρμογής δημιουργούνται οι πίνακες event, registration, role, user_roles στο public schemas
+Ο πίνακας user δεν μπορεί να δημιουργηθεί επειδή είναι δεσμευμένη λέξη στο postgresql (εκκρεμεί διόρθωση)
+
+
+
+
+
+
+
+
+
+
