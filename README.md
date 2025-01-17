@@ -1,7 +1,7 @@
 # DistributedSystems 
 
 
-# Σύνδεση νέας βάσης δεδομένων postgreSql στο intelij 
+# Οδηγίες σύνδεσης της βάσης δεδομένων postgreSql στο intelij 
 
 Host: dpg-cu2jdpqj1k6c73cmqisg-a.oregon-postgres.render.com
 
