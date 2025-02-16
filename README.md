@@ -20,7 +20,8 @@ PGPASSWORD=aJorvQJPYPoVuL6IewlkeltXH6HzPg9b psql -h dpg-cumcdl8gph6c73df4lig-a.o
 
 Αν θέλετε να κάνετε αλλαγές στη βάση δεδομένων πρέπει να έχετε κατεβασμένο το pgAdmin, εκεί επιλέγετε register server και συνδέεστε στην βάση render με τα παραπάνω στοιχεία 
 
-# Link βίντεου εκτέλεσης της εφαρμογής
+# Bίντεο εκτέλεσης της εφαρμογής
+Υπάρχει screen recording με την εκτέλεση της εφαρμογής στο αρχείο VideoRun.mp4 ή στον σύνδεσμο:
 https://screenapp.io/app/#/shared/4T5e4ejX6y
 
 
